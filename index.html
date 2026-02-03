@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>For You</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+
+<h2>Masuk pelan-pelan 🤍</h2>
+<input type="password" id="pass" placeholder="kata kecil">
+<button class="btn" onclick="check()">Masuk</button>
+
+<script>
+function check(){
+  if(document.getElementById("pass").value==="icantik"){
+    window.location="home.html";
+  } else {
+    alert("pelan-pelan ya");
+  }
+}
+</script>
+
+</body>
+</html>
