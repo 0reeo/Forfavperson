@@ -1,0 +1,54 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background:#f7efe5;
+  color:#3a3a3a;
+  padding:40px;
+}
+
+.center{text-align:center}
+.fade{animation:fade 1.2s}
+
+@keyframes fade{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+.btn{
+  display:inline-block;
+  margin-top:30px;
+  padding:12px 25px;
+  background:#b08968;
+  color:white;
+  border-radius:25px;
+  text-decoration:none;
+}
+
+.gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+  gap:15px;
+}
+
+.gallery img{
+  width:100%;
+  border-radius:12px;
+}
+
+.paper{
+  background:#fffaf3;
+  padding:40px;
+  max-width:600px;
+  margin:auto;
+  border-radius:12px;
+}
+
+.music-btn{
+  position:fixed;
+  top:15px;
+  right:15px;
+  border:none;
+  border-radius:20px;
+  padding:8px 14px;
+  background:#fffaf3;
+  font-size:.85rem;
+}
