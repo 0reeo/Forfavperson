@@ -2,15 +2,24 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>—</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hadiah — Jangan Tutup Halaman Ini</title>
 <link rel="stylesheet" href="style.css">
+<style>
+/* Local overrides and accessibility improvements */
+.muted { opacity: 0.6; font-size: 0.9rem; }
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .fade { animation: none !important; }
+}
+</style>
 </head>
-<body class="center fade">
-
-<p style="opacity:.6;font-size:.9rem">
-Kalau kamu menutup halaman ini,<br>
-hadiahnya tidak ikut tertutup.
-</p>
-
+<body>
+<main class="center fade" role="main">
+  <p class="muted">
+    Kalau kamu menutup halaman ini, hadiahnya tidak ikut tertutup.
+  </p>
+</main>
 </body>
 </html>
